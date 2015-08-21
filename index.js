@@ -4,13 +4,17 @@ var gulp   = require('gulp'),
 
 elixir.extend('jison', function (src, output, options) {
 
-    var config = this,
-        defaultSrc = [
-            'resources/grammars/*.jison'
-        ];
+    var jisonPath = this.assetsDir + 'grammars/*.jison';
 
-    src = src || defaultSrc;
+    gulp.task('jison', function () {
+        return gulp.src(jisonPath)
+            .pipe(jison({
+                moduleType: 'global',
+            }))
+            .pipe(gulp.dest('./public/js/grammars/'));
+    });
 
-    this.registerWatcher('jison', )
+    this.registerWatcher('jison', jisonPath);
+
     return this.queueTask('jison');
 });
