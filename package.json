@@ -1,0 +1,38 @@
+{
+  "name": "developingo-elixir-jison",
+  "version": "0.0.4",
+  "description": "An elixir wrapper for jison",
+  "keywords": [
+    "laravel",
+    "elixir",
+    "jison",
+    "gulp"
+  ],
+  "author": {
+    "name": "Abraham Toriz",
+    "email": "awonderfulcode@gmail.com",
+    "url": "https://github.com/developingo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/developingo/developingo-elixir-jison"
+  },
+  "bugs": {
+    "url": "https://github.com/developingo/developingo-elixir-jison/issues"
+  },
+  "homepage": "https://github.com/developingo/developingo-elixir-jison",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gulp": "^3.8.8",
+    "gulp-jison": "^1.2.0",
+    "developingo-elixir": "^2.3.13"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "license": "MIT"
+}
