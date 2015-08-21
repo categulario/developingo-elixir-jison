@@ -1,6 +1,6 @@
 {
   "name": "developingo-elixir-jison",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "An elixir wrapper for jison",
   "keywords": [
     "laravel",
